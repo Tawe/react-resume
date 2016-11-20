@@ -1,0 +1,22 @@
+.c-scroll{
+	position: fixed;
+	height: 100%;
+	width: 10px;
+	top: 0px;
+	right: 0px;
+	.c-scroll__bg{
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		background-color: @c-scroll-bg;
+	}
+	.c-scroll__fill{
+		position: absolute;
+		height: 0%;
+		width: 100%;
+		background-color: @c-scroll-fill;
+	}
+	&.is-mobile{
+		display: none;
+	}
+}

@@ -1,0 +1,80 @@
+@keyframes animate-container-on {
+    from {opacity:0}
+    to {opacity:1}
+}
+
+.c-card__container{
+	position: absolute;
+	margin: auto;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 30px;
+    width: 295px;
+	animation: animate-container-on 2s ease-out 1;	
+	opacity:1;
+    @media @768{ 
+    	min-width: 50%;
+    	left: 330px;
+    	right: 110px;
+    }
+	.c-cards__info{
+		display: block;
+		@media @768{ 
+			display: none;
+		}
+	}
+	.o-cards{
+		border: 2px solid @c-sidebar-title;
+		border-radius: 0.35em;
+		min-width: 295px;
+		position: relative;
+		margin-top: 30px;
+		@media @900{
+			min-width: 550px;
+		}
+	    .o-cards__title{
+	    	position: absolute;
+	    	top: -12px;
+	    	left: 5px;
+	    	background-color: @c-sidebar-text;
+	    	padding-left: 10px;
+	    	padding-right: 10px;
+	    	padding-bottom: 5px;
+	    	text-align: center;
+	    	.t-body-title;
+
+	    }
+	    .o-cards__card{
+	    	margin-top: 20px;
+	    	margin-left: 40px;
+	    	padding-bottom: 10px;
+	    	padding-right: 10px;
+			.t-body-copy;
+	    	.o-card__title{
+	    		margin-bottom: 8px;
+	    		@media @900{
+	    			margin-bottom: 2px;	
+	    		}
+	    	}
+	    	.o-card__group{
+	    		margin-bottom: 10px;		
+		    	word-wrap: break-word;
+		    	.o-card__company{
+		    		.t-work-title;		    
+	    		}
+	    		.o-card__href{
+					color: @c-body-links;
+	    		}
+	    	}
+	    	.o-card__name{
+				.t-info-name;	
+	    	}
+	    	.o-card__role{
+				.t-info-title;
+	    	}
+	    	.o-card__contact{
+	    		.t-info-contact;
+	    	}
+	    }
+	}
+}

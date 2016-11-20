@@ -1,0 +1,105 @@
+{
+	"sidebar":{
+		"name":"John Munn",
+		"title":"Developer",
+		"email":"munn.jon@gmail.com",
+		"about":"I'm a 35 year old Developer working out of Halifax, Nova Scotia.",
+		"work": "Currently working at Nickel Media",
+		"website":"http://www.jnickel.com"
+	},
+	"info":{
+		"title":"Info",
+		"items":[{
+			"name":"John Munn",
+			"title":"Front-End Developer",
+			"contact":"munn.jon@gmail.com"
+		}]
+	},
+	"skills":{
+		"title":"Technical Knowledge",
+		"items":[{
+			"experience":"Experience with Javascript, Typescript and Frameworks such as React."
+		},{
+			"experience":"Experience with swift and objective-c languages."
+		},{
+			"experience":"Experience in mobile first and responsie development."
+		},{
+			"experience":"Experience with preprocessors such as Sass, Less and Stylus."
+		},{
+			"experience":"Experience wth databases such as MySQL, MongoDB and PostgressSQL."
+		},{
+			"experience":"Experience with Node, Gulp, Grunt and Webpack."
+		},{
+			"experience":"Experience with Jade, Handlebars and Haml."
+		},{
+			"experience":"Experience with Libraries such as jQuery, PixieJs, ThreeJs, WebcamJs, PhantomJS, Socket.Io and Modernizer and more."
+		}]	
+	},
+	"work":{
+		"title":"Work Experience",
+		"items":[{
+			"company":"Nickel Media Inc",
+			"title":"Front-End Developer",
+			"dates":"June 2013-Present"
+		},{
+			"company":"Freelance",
+			"title":"Front-End Developer",
+			"dates":"October 2012-April 2013"
+
+		},{
+
+			"company":"Bluedrop Performance Learning",
+			"title":"Application Developer",
+			"dates":"May 2007-October 2012"
+		},{
+			"company":"Academy Interanet",
+			"title":"Freelance Developer",
+			"dates":"May 2007-January 2008"
+		},{
+			"company":"Provinent Corp",
+			"title":"Developer",
+			"dates":"November 2004-May 2007"
+		}]
+	},
+	"credits":{
+		"title":"Credits/Mentions",
+		"items":[{
+			"name":"The letgo Commercializer",
+			"client":"letgo",
+			"title":"Front-End Developer",
+			"link":"http://www.adweek.com/agencyspy/dolph-lundgren-returns-from-obscurity-to-introduce-the-letgo-commercializer/107468"
+		},{
+			"name":"So Cruel",
+			"client":"Coors Altitude",
+			"title": "UI Developer",
+			"link":"http://archive.theadcc.ca/islandora/object/adcc%3A21566"
+		},{
+			"name":"Mr.Lahey Votes",
+			"client":"Nickel Media",
+			"title":"Developer",
+			"link":"https://adsoftheworld.com/media/online/canadian_elections_mr_lahey_votes"
+		},{
+			"name":"Seances",
+			"client":"NFB",
+			"title":"Developer",
+			"link":"http://seances.nfb.ca/"
+		},{
+			"name":"#KimsDataStash",
+			"client":"T-Mobile",
+			"title":"Developer",
+			"link":"http://www.trustcollective.com/2015/02/02/big-fuel-and-tool-bring-you-selfie-tweets-from-kim-kardashian-for-t-mobiles-super-bowl-xlix-social-campaign/"
+		},{
+			"name":"Hidden Window App",
+			"client":"Nickel Media",
+			"title":"Developer",
+			"link":"http://www.hiddenwindowapp.com/credits.html"
+		}]
+	}
+}
+
+
+
+
+
+
+
