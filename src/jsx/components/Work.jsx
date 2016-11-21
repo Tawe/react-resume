@@ -11,6 +11,8 @@ export default class Work extends React.Component {
                     <div className="o-card__company">{item.company}</div>            
                     <div className="o-card__position">{item.title}</div>            
                     <div className="o-card__dates">{item.dates}</div> 
+                    <div className="o-card__tasks">{item.tasks}</div> 
+                    <div className="o-card__tech">{"Tech Used: "} <em>{item.tech}</em></div> 
                 </div>           
             );
         });

@@ -68,6 +68,9 @@ body {
 .t-work-title {
   font-size: 1.2em;
 }
+.t-work-tech {
+  font-size: 1.0em;
+}
 @keyframes animate-sidebar-on {
   from {
     transform: translateX(-20em);
@@ -309,7 +312,7 @@ body {
 .c-card__container .o-cards .o-cards__card {
   margin-top: 20px;
   margin-left: 40px;
-  padding-bottom: 10px;
+  padding-bottom: 12px;
   padding-right: 10px;
   font-family: 'Varela Round', sans-serif;
   font-size: 0.65em;
@@ -329,7 +332,7 @@ body {
   }
 }
 .c-card__container .o-cards .o-cards__card .o-card__group {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   word-wrap: break-word;
 }
 .c-card__container .o-cards .o-cards__card .o-card__group .o-card__company {
@@ -350,6 +353,15 @@ body {
 }
 .c-card__container .o-cards .o-cards__card .o-card__contact {
   font-size: 1.25em;
+}
+.c-card__container .o-cards .o-cards__card .o-card__dates {
+  margin-bottom: 6px;
+}
+.c-card__container .o-cards .o-cards__card .o-card__tasks {
+  margin-bottom: 6px;
+}
+.c-card__container .o-cards .o-cards__card .card__tech {
+  font-size: 1.0em;
 }
 .c-scroll {
   position: fixed;

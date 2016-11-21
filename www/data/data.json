@@ -32,7 +32,7 @@
 		},{
 			"experience":"Experience with Jade, Handlebars and Haml."
 		},{
-			"experience":"Experience with Libraries such as jQuery, PixieJs, ThreeJs, WebcamJs, PhantomJS, Socket.Io and Modernizer and more."
+			"experience":"Experience with Libraries such as jQuery, PixieJs, ThreeJs, WebcamJs, PhantomJS, Socket.Io, Modernizer and more."
 		}]	
 	},
 	"work":{
@@ -40,25 +40,34 @@
 		"items":[{
 			"company":"Nickel Media Inc",
 			"title":"Front-End Developer",
-			"dates":"June 2013-Present"
+			"dates":"June 2013-Present",
+			"tasks":"I was tasked rapid development of prototypes for pitches and to display to clients, the building of front facing pixel perfect websites based off of psd built by the design team, the creation of dynamic templates for use in dynamic videos and more.",
+			"tech":"Typescript, Javascript, CSS, LESS, jQuery, Html, NodeJs and More"
 		},{
 			"company":"Freelance",
 			"title":"Front-End Developer",
-			"dates":"October 2012-April 2013"
-
+			"dates":"October 2012-April 2013",
+			"tasks":"Consulted with various companies to help the production of their websites and courseware content.",
+			"tech":"Html, Javascript, jQuery, CSS, PHP and More"
 		},{
 
 			"company":"Bluedrop Performance Learning",
 			"title":"Application Developer",
-			"dates":"May 2007-October 2012"
+			"dates":"May 2007-October 2012",
+			"tasks":"I aided in the production of courseware and websites. I was also tasked with creating applications to aid with task automation within the company.",
+			"tech":"Html, Javascript, jQuery, CSS, PHP, VBA, MySQL and More"
 		},{
 			"company":"Academy Interanet",
 			"title":"Freelance Developer",
-			"dates":"May 2007-January 2008"
+			"dates":"May 2007-January 2008",
+			"tasks":"Consulted and aided in the development of courseware for use in Banking in the UK.",
+			"tech":"Actionscript, Javascript, Html, Css"
 		},{
 			"company":"Provinent Corp",
 			"title":"Developer",
-			"dates":"November 2004-May 2007"
+			"dates":"November 2004-May 2007",
+			"tasks":"I engaged in the role of developer on various projects at Provinent. I gained experience in various cooperate methodologies and procedures.",
+			"tech":"Html, Javascript, Html, Css, Actionscript and Lingoscript"
 		}]
 	},
 	"credits":{

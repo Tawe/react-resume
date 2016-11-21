@@ -21876,6 +21876,22 @@
 	                    "div",
 	                    { className: "o-card__dates" },
 	                    item.dates
+	                ),
+	                _react2.default.createElement(
+	                    "div",
+	                    { className: "o-card__tasks" },
+	                    item.tasks
+	                ),
+	                _react2.default.createElement(
+	                    "div",
+	                    { className: "o-card__tech" },
+	                    "Tech Used: ",
+	                    " ",
+	                    _react2.default.createElement(
+	                        "em",
+	                        null,
+	                        item.tech
+	                    )
 	                )
 	            ));
 	        });
