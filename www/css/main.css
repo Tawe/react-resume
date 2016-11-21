@@ -105,14 +105,13 @@ body {
 .c-sidebar .c-sidebar__top .c-sidebar__pic {
   position: relative;
   width: 150px;
-  height: 86.60px;
+  height: 86px;
   margin: auto;
   margin-top: 30%;
-  background-image: url('http://csshexagon.com/img/meow.jpg');
-  background-size: auto 168.5863px;
+  background-image: url(https://tawe.github.io/www/imgs/picture.jpg);
+  background-size: auto 170.2051px;
   background-position: center;
-  border-left: solid 2px rgba(152, 154, 156, 0.57);
-  border-right: solid 2px rgba(152, 154, 156, 0.57);
+  background-repeat: no-repeat;
 }
 .c-sidebar .c-sidebar__top .c-sidebar-pic__top,
 .c-sidebar .c-sidebar__top .c-sidebar-pic__bottom {
@@ -125,14 +124,14 @@ body {
   -ms-transform: scaleY(0.5774) rotate(-45deg);
   transform: scaleY(0.5774) rotate(-45deg);
   background: inherit;
-  left: 19.97px;
+  left: 21.97px;
 }
 .c-sidebar .c-sidebar__top .c-sidebar-pic__top:after,
 .c-sidebar .c-sidebar__top .c-sidebar-pic__bottom:after {
   content: "";
   position: absolute;
-  width: 146.0000px;
-  height: 84.29313930168537px;
+  width: 150.0000px;
+  height: 86.60254037844388px;
   -webkit-transform: rotate(45deg) scaleY(1.7321) translateY(-42.1466px);
   -ms-transform: rotate(45deg) scaleY(1.7321) translateY(-42.1466px);
   transform: rotate(45deg) scaleY(1.7321) translateY(-42.1466px);
@@ -142,17 +141,13 @@ body {
   background: inherit;
 }
 .c-sidebar .c-sidebar__top .c-sidebar-pic__top {
-  top: -53.033px;
-  border-top: solid 2.8284px rgba(152, 154, 156, 0.57);
-  border-right: solid 2.8284px rgba(152, 154, 156, 0.57);
+  top: -52.033px;
 }
 .c-sidebar .c-sidebar__top .c-sidebar-pic__top:after {
   background-position: center top;
 }
 .c-sidebar .c-sidebar__top .c-sidebar-pic__bottom {
   bottom: -53.033px;
-  border-bottom: solid 2.8284px rgba(152, 154, 156, 0.57);
-  border-left: solid 2.8284px rgba(152, 154, 156, 0.57);
 }
 .c-sidebar .c-sidebar__top .c-sidebar-pic__bottom:after {
   background-position: center bottom;
@@ -162,8 +157,8 @@ body {
   position: absolute;
   top: 1.1547px;
   left: 0;
-  width: 146.0000px;
-  height: 84.2931px;
+  width: 150.0000px;
+  height: 86.6025px;
   z-index: 2;
   background: inherit;
 }
@@ -266,7 +261,7 @@ body {
   margin: auto;
   left: 0px;
   right: 0px;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
   width: 295px;
   animation: animate-container-on 2s ease-out 1;
   opacity: 1;
