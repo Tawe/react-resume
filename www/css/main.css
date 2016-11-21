@@ -339,9 +339,13 @@ body {
 }
 .c-card__container .o-cards .o-cards__card .o-card__group .o-card__company {
   font-size: 1.2em;
+  font-weight: 600;
 }
 .c-card__container .o-cards .o-cards__card .o-card__group .o-card__href {
   color: #4699ec;
+}
+.c-card__container .o-cards .o-cards__card .o-card__position {
+  font-style: italic;
 }
 .c-card__container .o-cards .o-cards__card .o-card__name {
   font-size: 2.5em;
