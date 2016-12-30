@@ -9,11 +9,9 @@
 	},
 	"info":{
 		"title":"Info",
-		"items":[{
-			"name":"John Munn",
-			"title":"Front-End Developer",
-			"contact":"munn.jon@gmail.com"
-		}]
+		"name":"John Munn",
+		"title":"Front-End Developer",
+		"contact":"munn.jon@gmail.com"
 	},
 	"skills":{
 		"title":"Technical Knowledge",

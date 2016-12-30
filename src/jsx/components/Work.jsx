@@ -1,31 +1,29 @@
 import React from 'react';
 
-let elArry= [];
-export default class Work extends React.Component {
-    constructor(props) {
-        super();
-        this.state = props.data;
-        this.state.items.map((item, i)=>{
-            elArry.push(
-                <div className="o-card__group" key={i}>
-                    <div className="o-card__company">{item.company}</div>            
-                    <div className="o-card__position">{item.title}</div>            
-                    <div className="o-card__dates">{item.dates}</div> 
-                    <div className="o-card__tasks">{item.tasks}</div> 
-                    <div className="o-card__tech">{"Tech Used: "} <em>{item.tech}</em></div> 
-                </div>           
-            );
-        });
-    }
-    render(props){
-        return(
-            <div className="o-cards">
-                <div className="o-cards__title">{this.state.title}</div>
-                <div className="o-cards__card">
-                    <div className="o-camkrd__bg"></div>
-                     {elArry}
-                </div>
-            </div>
+
+const Work = (props)=>{
+    let elArry= [];
+    let data = props.data;
+    for(let item in data.items){
+        elArry.push(
+            <div className="o-card__group" key={item}>
+                <div className="o-card__company">{data.items[item].company}</div>            
+                <div className="o-card__position">{data.items[item].title}</div>            
+                <div className="o-card__dates">{data.items[item].dates}</div> 
+                <div className="o-card__tasks">{data.items[item].tasks}</div> 
+                <div className="o-card__tech">"Tech Used: " <em>{data.items[item].tech}</em></div> 
+            </div>           
         );
-    }
+    };
+    return(
+        <div className="o-cards">
+            <div className="o-cards__title">{data.title}</div>
+            <div className="o-cards__card">
+                <div className="o-camkrd__bg"></div>
+                 {elArry}
+            </div>
+        </div>
+    );
 }   
+
+export default Work;

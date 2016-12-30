@@ -28,9 +28,7 @@ class App extends React.Component {
 			skills:data.skills,
 			work:data.work,
 			credits:data.credits
-		}
-		console.log(this.state)
-	
+		}	
 	}
 	render () {
 		return    <div>

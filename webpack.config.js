@@ -9,10 +9,11 @@ var config = {
     entry: APP_DIR + '/jsx/App.jsx',
  	output: {
  	   path: BUILD_DIR,
- 	   publicPath:'/',
+ 	   publicPath:'',
  	   filename: '/js/bundle.js'
  	 },
  	 devServer:{
+ 	 	headers: { "Access-Control-Allow-Origin": "*" },
         contentBase: './www',
  		inline: true,
  		port: 8080,
@@ -23,17 +24,25 @@ var config = {
 	},
  	module:{
  		loaders : [
- 		     { test : /\.jsx?/, include : APP_DIR, loader : 'babel'},
- 		     { test: /\.less$/, include: APP_DIR, exclude: /node_modules/, loader: ExtractTextPlugin.extract("style-loader", "css-loader!less-loader") }
+ 		    { test : /\.jsx?/, include : APP_DIR, loader : 'babel'},
+ 		    { test: /\.less$/, include: APP_DIR, exclude: /node_modules/, loader: ExtractTextPlugin.extract("style-loader", "css-loader!less-loader") },
+ 		    { test: /\.(jpe?g|png|gif|svg)$/i, loaders: ['file?hash=sha512&digest=hex&name=img/[hash].[ext]', 'image-webpack?bypassOnDebug&optimizationLevel=7&interlaced=false']}
  		]
  	},
  	plugins: [
-        new ExtractTextPlugin("/css/main.css", {
+        new ExtractTextPlugin("main.css", {
         	allChunks: true
-        })
+        }),
+       new webpack.DefinePlugin({
+         'process.env': {
+           NODE_ENV: JSON.stringify('production')
+         }
+       }),
+       new webpack.optimize.UglifyJsPlugin()
     ],
  	watch: true,
 
 };
 
 module.exports = config;
+
