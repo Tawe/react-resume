@@ -3,9 +3,9 @@
 		"name":"John Munn",
 		"title":"Developer",
 		"email":"munn.jon@gmail.com",
-		"about":"I'm a 35 year old Developer working out of Halifax, Nova Scotia.",
-		"work": "Currently working at Nickel Media",
-		"website":"http://www.jnickel.com"
+		"about":"I'm a 35 year old Developer working out of Fredericton, New Brunswick.",
+		"work": "Currently working at IBM",
+		"website":""
 	},
 	"info":{
 		"title":"Info",
@@ -36,9 +36,15 @@
 	"work":{
 		"title":"Work Experience",
 		"items":[{
+			"company":"IBM Security",
+			"title":"UI Developer",
+			"dates":"January 2017-Present",
+			"tasks":"I am in charge of mantaining an updating the user interface of a legacy IBM Security product. My task included designing and developing new UI Elements, setting standards and work flow processes and introducing new and innovative tech to the current development enviroment.",
+			"tech":"Jaascript, PHP, SASS, ITCSS, CSS, NodeJs and more"
+		},{
 			"company":"Nickel Media Inc",
 			"title":"Front-End Developer",
-			"dates":"June 2013-Present",
+			"dates":"June 2013-January 2017",
 			"tasks":"I was tasked rapid development of prototypes for pitches and to display to clients, the building of front facing pixel perfect websites based off of psd built by the design team, the creation of dynamic templates for use in dynamic videos and more.",
 			"tech":"Typescript, Javascript, CSS, LESS, jQuery, Html, NodeJs and More"
 		},{
